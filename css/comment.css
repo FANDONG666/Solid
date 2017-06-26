@@ -1,0 +1,610 @@
+html, body, ul, li, ol, dl, dd,form,input, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img, input, button {
+    margin: 0;
+    padding: 0;
+}
+body{
+	width: 1006px;
+	margin: 0 auto;
+	padding:0 9px;
+	background: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+   	color: #000;
+   	font-size: 12px;
+	}
+fieldset, img, input, button {
+    border: none;
+    outline-style: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+input {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: "SimSun";
+}
+
+select, input {
+    vertical-align: middle;
+}
+
+select, input, textarea {
+    font-size: 12px;
+    margin: 0;
+}
+
+textarea {
+    resize: none;
+}
+
+img {
+    border: 0;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+    outline: none;
+}
+li{list-style: none;}
+
+h1, h2, h3, h4, h5, h6 {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 100%;
+}
+
+s, i, em {
+    font-style: normal;
+    text-decoration: none;
+}
+.fl{float:left;}
+.fr{float:right;}
+.clearfix:after{content:"";display:table;clear:both;}
+.clearfix{zoom:1;}
+header{
+	position: relative;
+	height: 95px;
+}
+header .logo{
+	width: 120px;
+	position: absolute;
+	top: 11px;
+	left: 32px;
+}
+header .header-title{
+	position: absolute;
+	top: 14px;
+	left: 190px;
+}
+header .header-title h1{
+	font-size: 24px;
+	line-height: 24px;
+	font-weight: 550;
+}
+header .header-title h3{
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 21px;
+}
+header .header-select{
+	position: absolute;
+	bottom: 16px;
+	right: 48px;
+	width: 145px;
+	height: 21px;
+	z-index: 999999;
+}
+header .header-select img{
+	float: left;
+    cursor: pointer;
+
+}
+header .header-select .select{
+	width: 115px;
+	background: #fff;
+	float: left;
+}
+header .header-select .select1{
+	border: 1px solid #ed1c29;
+}
+header .header-select .select2{
+	border: 1px solid #ed1c29;
+	display: none;
+}
+header .header-select .select .select-list{
+	display: block;
+	height: 19px;
+	line-height: 19px;
+	position: relative;
+}
+header .header-select .select .select-list img{
+	position: absolute;
+	top: 5px;
+	left: 5px;
+}
+header .header-select .select .select-list .country{
+	color:#bfbebf;
+	position: absolute;
+	top: 2px;
+	left: 27px;
+	font-size: 13px;
+}
+.banner{
+	padding: 0px 0px;
+	background: #1260c3;
+}
+.banner .inBox .imgsBox{
+	width: 532px;
+	height: 87px;
+}
+.banner .inBox .imgsBox2{
+	margin-top: 15px;
+}
+.banner .inBox .imgsBox li{
+	float: left;
+	height: 87px;
+	cursor: pointer;
+}
+.banner .inBox .inBox-right{
+	margin-left: 35px;
+	padding-top: 10px;
+	width: 380px;
+}
+.banner .inBox .inBox-right p{
+	font-size: 16px;
+	color: #fff;
+	line-height: 30px;
+	word-spacing: 1px;
+}
+.banner .inBox .inBox-right p span{
+	background: #ffbb00;
+}
+.banner .inBox .inBox-right .yellowP{
+	color: #333;
+	line-height: 40px;
+	margin-bottom: 3px;
+}
+nav{
+	height: 33px;
+	background: #1260c3;
+	margin-top: 8px;
+}
+nav ul{
+	height: 33px;
+}
+nav ul li{
+	float: left;
+	margin-left: 48px;
+	line-height: 33px;
+}
+nav ul li a{
+	font-size: 12px;
+	color: #fff;
+	font-weight: bold;
+}
+.addyelloW{
+	color: #ffbb00;
+}
+.white-bar{
+	height: 38px;
+	line-height: 38px;
+	margin-left: 10px;
+	font-weight: 600;
+}
+.sildeBar{
+	width: 210px;
+	min-height: 515px;
+	background: #1260c3;
+	color: #fff;
+}
+.sildeBar .top{
+	height: 35px;
+	line-height: 35px;
+	font-size: 14px;
+	margin-left: 36px;
+}
+.sildeBar .line{
+	height: 1px;
+	background-image: url(../img/bobtm.png);
+	background-repeat: no-repeat;
+}
+.sildeBar .listInner .lists{
+	margin-top: 14px;
+	margin-left: 10px;
+}
+.sildeBar .listInner .lists{
+	cursor: pointer;
+}
+.sildeBar .listInner .lists span,.menuA{
+	position: relative;
+	top:-2px;
+	left: 10px;
+}
+.sildeBar .listInner .listBox .list{
+	padding: 6px 0px  6px 36px;
+}
+.main{
+	width: 775px;
+}
+.rightBar{
+	height: 36px;
+	padding-left: 16px;
+	line-height: 36px;
+	background: #1260c3;
+	font-size: 18px;
+	color:#fff;
+	margin-bottom: 20px;
+}
+footer{
+	height: 108px;
+	border-top:2px solid #000;
+	margin-top: 26px;
+	text-align: center;
+}
+footer div{
+	margin-top: 7px;
+	margin-bottom: 5px;
+}
+footer img{
+	position: relative;
+	top:6px;
+	left: 7px;
+}
+footer p{
+	font-size: 12px;
+	line-height: 20px;
+}
+section p{
+	margin-left: 18px;
+	line-height: 20px;
+}
+.pro-sec-8 ul,.pro-sec-9 ul,.pro-sec-10 ul,.pro-sec-14 ul{
+	display: none;
+}
+.pagination{
+	text-align: center;
+	margin-bottom: 15px;
+}
+.pagination span,.pagination em{
+	display: inline-block;
+	padding: 2px 5px;
+	cursor: pointer;
+	border: 1px solid #1260c3;
+}
+.pagination .pagesGo{
+	margin-right: 10px;
+}
+.pagination .pagesGo i{
+	margin-right: 6px;
+}
+.pagination .pagesGo button{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	background: #f4f4f4;
+	position: relative;
+	top: 2px;
+	right: 7px;
+	border: 1px solid #ccc;
+	cursor: pointer;
+}
+.pagination .pages-num{
+	display: inline-block;
+	width: 27px;
+	height: 16px;
+	border: 1px solid #1260c3;
+	margin-right: 7px;
+}
+.pagination .hidePages{
+	display: none;
+}
+.addBlue{
+	background: #1260c3;
+	color: #fff;
+}
+
+/*index*/
+.ind-info{
+	padding-bottom: 26px;
+}
+.slideBox{ width:240px; height:180px; overflow:hidden; position:relative; border:1px solid #ddd;  }
+.slideBox .hd{ height:15px; overflow:hidden; position:absolute; right:5px; bottom:5px; z-index:1; }
+.slideBox .hd ul{overflow:hidden; zoom:1; float:left;margin-right: 70px; }
+.slideBox .hd ul li{ float:left; margin-right:5px;width:15px; height:15px; line-height:14px; text-align:center; background:#fff; cursor:pointer; }
+.slideBox .hd ul li.on{ background:#000; color:#fff; }
+.slideBox .bd{ position:relative; height:100%; z-index:0;}
+.slideBox .bd li{ zoom:1; vertical-align:middle; }
+.slideBox .bd img{ width:240px; height:180px; display:block;}
+.ind-info .text{
+	width: 502px;
+	margin-right: 18px;
+	font-size: 14px;
+}
+.ind-info .text p{
+	margin-bottom: 20px;
+}
+.ind-imgs{
+	height: 277px;
+	margin: 19px 0px 30px -27px;
+}
+.ind-imgs li{
+	float: left;
+	width: 239px;
+	margin-left: 27px;
+}
+.ind-map{
+	display: block;
+	width: 757px;
+	margin: 20px auto 30px;
+}
+.ind-oem p{
+	font-size: 14px;
+}
+.ser-p p{
+	font-size: 14px;
+}
+.ind-ps2{
+	margin-top: 20px;
+	clear: both;
+}
+.ind-ps2 p{
+	font-size: 14px;
+	margin-left: 0px;
+	margin-top: 20px;
+	
+}
+.section4{
+	height: 210px;
+	position: relative;
+	
+}
+.section4 .ind-con{
+	float: left;
+}
+.section4 img{
+	width: 191px;
+	position: absolute;
+	top:71px;
+	right: 83px;
+}
+/*service*/
+.ser-map{
+	display: block;
+	width: 685px;
+	margin: 20px auto 30px;
+}
+/*contact*/
+.con-section{
+	margin-bottom: 26px;
+}
+.con-form{
+	margin-left: 26px;
+}
+.con-form h2,.con-form h3{
+	margin-bottom: 15px;
+}
+.con-form h3{
+	margin-top: 24px;
+}
+.con-form input{
+	display: inline-block;
+	border: 1px solid #ccc;
+	background: #f0f5fb;
+	width: 352px;
+	height: 24px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	text-indent: 1em;
+	color: #333;
+	float: left;
+}
+.con-form label{
+	width: 148px;
+	height: 24px;
+	line-height: 24px;
+	text-align: right;
+	float: left;
+}
+.con-form .warning{
+	position: relative;
+	top: 5px;
+	left: 6px;
+	display: none;
+}
+.con-form .warning em{
+	color:#ed1c29;
+	position: relative;
+	left: 6px;
+	top: -2px;
+}
+.con-form label i{
+	color:red;
+}
+.con-form textarea{
+	height: 131px;
+	border: 1px solid #ccc;
+	background: #f0f5fb;
+	width: 348px;
+	text-indent: 1em;
+	float: left;
+	margin-left: 10px;
+}
+.con-form select{
+	display: inline-block;
+	border: 1px solid #ccc;
+	background: #f0f5fb;
+	height: 26px;
+	width: 55px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	text-indent: 1em;
+	color: #333;
+	float: left;
+}
+.con-form .con-ctydiv select{
+	width: 354px;
+}
+.con-form .con-cnmdiv select{
+	width: 51px;
+}
+.con-form .con-fulldiv input{
+	width: 287px;
+}
+.con-cho{
+	margin: 24px 0px 23px 160px;
+}
+#con-check{
+	width: 13px;
+	height: 13px;
+	position: relative;
+	top:2px;
+}
+#con-tel1{
+	width: 80px;
+	margin-left: -8px;
+}
+#con-tel2{
+	width: 80px;
+}
+#con-tel3{
+	width: 144px;
+}
+.con-teldiv span{
+	display: inline-block;
+	width: 22px;
+	height: 26px;
+	line-height: 26px;
+	text-align: center;
+	vertical-align: middle;
+	float:left;
+}
+.con-teldiv input{
+	margin-left: 0px;
+	color: #666;
+}
+.con-code{
+	width: 150px;
+	height: 51px;
+	border: 1px solid #ccc;
+	background: #f0f5fb;
+}
+#con-submit{
+	width: 87px;
+	height: 32px;
+	text-align: center;
+	line-height: 32px;
+	background: url(../img/btnBG.png);
+	background-size: 100%  100%;
+	text-indent: 0;
+	margin-left: 303px;
+	cursor: pointer;
+}
+/*product*/
+.pro-sec-1 .pro-title{
+	font-size: 18px;
+	font-weight: 500;
+	margin-bottom: 30px;
+}
+.pro-sec ul{
+	margin: 24px 0px;
+}
+.pro-sec ul li{
+	width:177px;
+	height:213px;
+	float: left;
+	margin: 15px 0px 15px 15px;
+}
+.pro-sec ul li div{
+	padding: 10px 0px;
+	line-height: 20px;
+	text-align: center;
+}
+.pro-sec-5 h1,.pro-sec-5 h2{
+	font-weight: 600;
+	font-size: 14px;
+}
+.pro-sec-5 .titles-2{
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+.pro-sec-5 img{
+	height: 120px;
+	float: left;
+	margin-left: 40px;
+	margin-bottom: 23px;
+}
+.pro-sec-5 table{
+	clear: both;
+	text-align: center;
+}
+.pro-sec-5 table th{
+	height: 44px;
+}
+.pro-sec-5 table tr td{
+	height: 20px;
+}
+.pro-sec-5 table tr td:nth-child(1){
+	width: 150px;
+}
+.pro-sec-5 table tr td:nth-child(2){
+	width: 166px;
+}
+.pro-sec-5 table tr td:nth-child(3){
+	width: 95px;
+}
+.pro-sec-5 table tr td:nth-child(4){
+	width: 110px;
+}
+.pro-sec-7 img{
+	width:100%;
+	margin: 0 auto;
+}
+.pro-sec-7 .imgText{
+	text-align: center;
+	font-size: 18px;
+	margin-top: 22px;
+	margin-bottom: 63px;
+}
+.pro-sec-12 p{
+	font-weight: 600;
+}
+.pro-sec-13 h1{
+	font-size: 14px;
+	font-weight: 600;
+}
+.pro-sec-13 table th{
+	height: 44px;
+}
+.pro-sec-13 table{
+	text-align: center;
+}
+.pro-sec-13 table th{
+	width: 105px;
+}
+.pro-sec-13 table th:nth-child(2){
+	width: 155px;
+}
+.pro-sec-13 table tr td{
+	height: 23px;
+}
+.pro-sec-13 .tabNext{
+	height: 250px;
+	font-weight: 600;
+}
+.pro-sec-13 .tabNext img{
+	margin-left: 100px;
+	margin-top: 40px;
+	width: 180px;
+	float: left;
+}
+.pro-sec-13 .tabNext .tabNext-r{
+	margin-left: 85px;
+	margin-top: 45px;
+}
+.pro-sec-13 .tabNext .tabNext-r .tabNext-r1{
+	margin-top: 40px;
+}
